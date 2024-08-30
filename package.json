@@ -1,7 +1,8 @@
 {
   "name": "ai-workshop-template",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "type": "module",
+  "description": "Q15 AI Content Workshop",
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
@@ -11,18 +12,15 @@
     "remotion": "4.0.206"
   },
   "devDependencies": {
-    "@remotion/eslint-config": "4.0.206",
     "@types/react": "^18.0.26",
     "@types/web": "^0.0.143",
-    "eslint": "^8.43.0",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.5"
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
   },
   "scripts": {
     "start": "remotion studio",
     "build": "remotion render MyComp out/video.mp4",
-    "upgrade": "remotion upgrade",
-    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+    "upgrade": "remotion upgrade"
   },
   "packageManager": "npm@10.7.0"
 }
